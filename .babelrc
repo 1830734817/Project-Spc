@@ -1,0 +1,41 @@
+{
+  "env": {
+    "test": {
+      "plugins": ["transform-require-context"]
+    }
+  },
+  "presets": [
+    "react-app",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "ie": "9"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+    "@babel/plugin-transform-runtime",
+    "transform-class-properties",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style":true
+      }
+    ]
+  ]
+}

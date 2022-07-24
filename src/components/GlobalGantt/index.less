@@ -1,0 +1,90 @@
+// @import '~dhtmlx-gantt/codebase/skins/dhtmlxgantt_material.css';
+@import './less/dhtmlxgantt_material.css';
+
+.weekend,.no_work_hour{
+  background: #f4f7f4;
+}
+
+.gantt_selected .weekend {
+  background:#f7eb91;
+}
+/* 关于gatt */
+.gantt-div{
+  height:100%;    
+  overflow-y: auto;
+}
+.gantt-content{
+  height: calc(100% - 160px);;
+}
+.zoom-bar{
+  height: 40px;
+  line-height: 30px;
+  label{
+    margin-right: 20px;
+    input{
+      margin-right: 5px;
+    }
+  }
+  & > div{
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+/* 首行add 去掉 */
+.gantt_grid_head_cell.gantt_grid_head_add{
+  display: none;
+}
+.gray {
+  border: 2px solid #efefef;
+  color: black;
+  background: #cacaca;
+}
+.blue {
+  border: 1px solid #2898b0;
+  color: #3db9d3;
+  background: #3db9d3;
+} 
+
+
+/* baseline */
+.baseline {
+  position: absolute;
+  border-radius: 2px;
+  opacity: 0.6;
+  margin-top: -7px;
+  height: 12px;
+  background: #ffd180;
+  border: 1px solid rgb(255, 153, 0);
+  border-radius: 10px;
+}
+
+/* move task lines upper */
+.gantt_task_line, .gantt_line_wrapper {
+  margin-top: -9px;
+}
+
+.gantt_side_content {
+  margin-bottom: 7px;
+}
+
+.gantt_task_link .gantt_link_arrow {
+  margin-top: -12px
+}
+
+.gantt_side_content.gantt_right {
+  bottom: 0;
+}
+.gantt_pro{
+  width: 100%;
+  height: calc(100% - 100px);
+}
+.gantt_notice{
+  border-left:2px solid var(--PC);
+  padding-left:10px;
+  margin-bottom: 20px;
+  background: #6236FF1A;
+  color: red;
+  height: 28px;
+  line-height: 28px;
+}

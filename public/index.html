@@ -1,0 +1,71 @@
+<!--
+ * @Description: 
+ * @version: 
+ * @Author: shoen
+ * @Date: 2020-12-28 15:42:32
+ * @LastEditors: shoen
+ * @LastEditTime: 2021-05-21 10:00:54
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- 浏览器图标 -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+
+    <!-- 移动Web网页 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 安卓版chrome的状态栏主题色，也仅仅被安卓版的chrome所支持 -->
+    <meta name="theme-color" content="#000000" />
+
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- <script src="https://cdn.dhtmlx.com/edge/dhtmlx.js?v=6.2.3"></script> -->
+    
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <!-- 浏览器标题 -->
+    <title>APS</title>
+  </head>
+  <body >
+    <!-- 设置 CSS：antd-theme-generator生成的主题CSS -->
+    <link rel="stylesheet/less" type="text/css" href="%PUBLIC_URL%/color.less" />
+
+    <!-- 设置 Less -->
+    <script>
+      window.less = {
+        async: false,
+        env: 'production',
+      };
+    </script>
+    <script type="text/javascript" src="%PUBLIC_URL%/less.min.js"></script>
+
+    <!-- 主框架 -->
+    <div id="root" ></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

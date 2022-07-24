@@ -1,0 +1,352 @@
+{
+  "id": "1266962",
+  "name": "设备管理项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "设备管理项目的图标",
+  "glyphs": [
+    {
+      "icon_id": "9604901",
+      "name": "chart",
+      "font_class": "chart",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "9605017",
+      "name": "device",
+      "font_class": "device",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "9605018",
+      "name": "instrument",
+      "font_class": "instrument",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "9605023",
+      "name": "part",
+      "font_class": "part",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "9605030",
+      "name": "system",
+      "font_class": "system",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "9723869",
+      "name": "type",
+      "font_class": "type",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "9723877",
+      "name": "number",
+      "font_class": "number",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "9723888",
+      "name": "list",
+      "font_class": "list",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "9723906",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "9724032",
+      "name": "input",
+      "font_class": "input",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "9724042",
+      "name": "output",
+      "font_class": "output",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "9724046",
+      "name": "arrow01",
+      "font_class": "arrow",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "9724056",
+      "name": "alerm",
+      "font_class": "alerm",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "9724102",
+      "name": "task",
+      "font_class": "task",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "9724107",
+      "name": "warning",
+      "font_class": "shining",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "9724110",
+      "name": "service",
+      "font_class": "service",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "9724140",
+      "name": "weixin",
+      "font_class": "weixin",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "9724366",
+      "name": "task01",
+      "font_class": "task1",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "9724373",
+      "name": "mission",
+      "font_class": "mission",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "9724468",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "9724552",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "9724716",
+      "name": "foldnavi",
+      "font_class": "foldnavi",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "9724777",
+      "name": "compy",
+      "font_class": "compy",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "9724845",
+      "name": "cop",
+      "font_class": "cop",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "9724897",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "9724899",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "9724901",
+      "name": "id",
+      "font_class": "id",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "9812814",
+      "name": "equipment failure",
+      "font_class": "equipmentfailure",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "9812815",
+      "name": "notice",
+      "font_class": "notice",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "9812816",
+      "name": "check type",
+      "font_class": "checktype",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "9812817",
+      "name": "inspection type",
+      "font_class": "inspectiontype",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "9812818",
+      "name": "inventory warning",
+      "font_class": "inventorywarning",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "9812819",
+      "name": "model",
+      "font_class": "model",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "9812820",
+      "name": "fault type",
+      "font_class": "faulttype",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "9812821",
+      "name": "performance",
+      "font_class": "performance",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "9812822",
+      "name": "spare parts",
+      "font_class": "spareparts",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "9812823",
+      "name": "recording",
+      "font_class": "recording",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "9812824",
+      "name": "maintenance",
+      "font_class": "maintenance",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "10810054",
+      "name": "计划",
+      "font_class": "jihua",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "10810055",
+      "name": "生产",
+      "font_class": "shengchan",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "10810057",
+      "name": "物料",
+      "font_class": "wuliao",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "10810058",
+      "name": "知识图谱",
+      "font_class": "zhishitupu",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "10810059",
+      "name": "质量",
+      "font_class": "zhiliang",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "10810060",
+      "name": "智能",
+      "font_class": "zhineng",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "10810061",
+      "name": "inventory warning",
+      "font_class": "inventorywarning1",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "10810062",
+      "name": "追溯",
+      "font_class": "zhuisu",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "11526497",
+      "name": "code",
+      "font_class": "code",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "11526498",
+      "name": "tool",
+      "font_class": "tool",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "11529088",
+      "name": "graphic",
+      "font_class": "graphic",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "code": 0,
+    "data": {
+      "page": {
+        "pageSize": 10,
+        "pageIndex": 1,
+        "total": 248
+      },
+      "items": [
+        {
+            "id": 1,
+            "finalItem": "A",
+            "procNo": 10,
+            "procCode": "CT",
+            "instructionType": "I",
+            "instructionCode": "In",
+            "item": "X",
+            "resource": "",
+            "task1Expr": "",
+            "task2Expr": "0.01",
+            "task3Expr": "",
+            "timeConstraintMethod": "ES",
+            "timeConstraintMin": "",
+            "timeConstraintMax": "",
+            "priority": 0
+        },
+        {
+            "id": 2,
+            "finalItem": "A",
+            "procNo": 10,
+            "procCode": "CT",
+            "instructionType": "U",
+            "instructionCode": "M",
+            "item": "",
+            "resource": "CT1",
+            "task1Expr": "",
+            "task2Expr": "6sp",
+            "task3Expr": "30",
+            "timeConstraintMethod": "",
+            "timeConstraintMin": "",
+            "timeConstraintMax": "",
+            "priority": 0
+          }
+      ]
+    }
+  }

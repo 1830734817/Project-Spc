@@ -1,0 +1,86 @@
+// .ant-layout-header{
+//   height: 45px !important;
+// }
+
+.header_layout {
+  background: transparent !important;
+  padding: 0;
+  // height: 55px;
+
+  &>div:nth-child(1) {
+      float:left;
+      //display: inline-block;          // 和float:left;冲突
+      font-size: 16px;
+      i {
+          padding-left: 20px;
+      }
+  }
+
+  // float:left; 让多个div在同一行排列
+  .tool_bar {
+    margin-left: 10px;
+    float:left;
+  }
+
+  .global_header_right {
+      float:right;
+      margin: 20px;
+
+      &>span {
+          float: right;
+          margin-right: 20px;
+          cursor: pointer;
+          width: 40px;
+          height: 40px;
+          border: 1px solid #9d9d9d;
+          border-radius: 50%;
+          line-height: 40px;
+          text-align: center;
+      }
+  }
+}
+
+.noticePanel{
+  background:#fff;
+  width:350px;
+  height:350px;
+  box-shadow: 0 1px 5px #888;
+  padding:20px;
+  margin-top: -10px;
+  .ant-list-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+}
+
+.noticePanel {
+  background: #fff;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 1px 5px #888;
+  padding: 20px;
+  margin-top: -10px;
+
+  .ant-list-items {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      max-height: 250px;
+      overflow-y: auto;
+  }
+}
+
+/* 切换主题操作 */
+.changeTheme{
+  display: inline-block;
+  vertical-align: top;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 20px;
+  & > span{
+    cursor: pointer;
+  }
+}

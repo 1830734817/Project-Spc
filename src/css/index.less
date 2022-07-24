@@ -1,0 +1,132 @@
+/*
+ * @Description: 全局样式文件
+ * @version: 
+ * @Author: shoen
+ * @Date: 2020-11-25 14:03:18
+ * @LastEditors: shoen
+ * @LastEditTime: 2021-05-10 11:36:06
+ */
+
+@import './layout.less';                     // 空
+@import './mixins.less';                     // 
+@import './newIcon/iconfont.css';
+@import './newIcon/menuIconfont.css';
+
+#root {
+  height: 100%;
+  width: 100%;
+
+  // table
+  .ant-table {
+    color: #9d9d9d !important;
+    font-size: 12px !important;
+  }
+
+  // 表格
+  .ant-table-middle {
+    // 表头
+    .ant-table-thead>tr>th {
+      color: rgba(0, 0, 0, 0.85);
+      background: #ddd;
+      height: 47px;
+    }
+    // 表体
+    .ant-table-tbody {
+      background: #fafafa;
+      transition: opacity 0.3s;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      border-bottom: 0;
+    }
+    // 表行
+    .ant-table-row {
+      color: #9d9d9d;
+      font-size: 12px;
+      font-weight: 400;
+      border: 1px solid #e2e2e2;
+    }
+
+    // .ant-table-content{
+    //   overflow: auto;
+    // }
+  }
+
+
+
+  // TipDrawer: 暂未使用
+  .type_line {
+    border-top: 1px solid #e8e8e8;
+  }
+
+  // 表格：操作文字,例如编辑、删除、排程和完结
+  .table_button {
+    span:nth-child(2n-1) {
+      cursor: pointer;
+      color: var(--PC);
+    }
+
+    span:nth-child(2n) {
+      margin: 0 2px;
+      color: gray;
+    }
+  }
+
+  // 表格：分割线的样式
+  .ant-divider,
+  .ant-divider-vertical {
+    margin: 0 4px !important;
+  }
+
+  //
+  .ant-form-item {
+    margin-bottom: 10px !important;
+  }
+
+  // /* Input */
+  // .ant-input {
+  //   border: 2px solid #d9d9d9 !important;
+  // }
+
+  .ant-input-number-input {
+    border: 2px solid #d9d9d9 !important;
+  }
+
+  /* Select */
+  // 
+  .ant-select-selection {
+    border: 2px solid #d9d9d9 !important;
+    border-top-width: 2px !important;
+  }
+
+  // dataPicker
+  .ant-time-picker-input {
+    border: 2px solid #d9d9d9;
+  }
+
+  // button
+  .add-btn {
+    background-color: #32C5FF !important;
+    border-color: #32C5FF !important;
+  }
+
+  // 右侧菜单
+  .follow_menu_list .li_menu_active {
+    border-left: 4px solid var(--PC);
+    background: #f3f3f3;
+    color: var(--PC);
+  }
+
+  .follow_menu_list li:hover {
+    color: var(--PC) !important;
+    background: #f3f3f3;
+  }
+}
+
+/* dialog */
+.ant-modal-body{
+  overflow-y: scroll !important;
+}
+
+li {
+  list-style: none;
+}

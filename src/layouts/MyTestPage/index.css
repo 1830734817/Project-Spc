@@ -1,0 +1,8 @@
+.site-calendar-demo-card {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+  [data-theme="dark"] .site-calendar-demo-card {
+    border: 1px solid #303030;
+  }
